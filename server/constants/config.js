@@ -5,11 +5,7 @@ const options = {
 };
 
 const corsoptions = {
-  origin: [
-    "http://localhost:5173",
-    "http://localhost:4173",
-    process.env.CLIENT,
-  ],
+  origin: "*",
   credentials: true,
 };
 export { options, corsoptions };
